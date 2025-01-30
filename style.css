@@ -1,0 +1,68 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#quiz-container {
+    background: pink;
+    padding: 150px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 1000px;
+   
+}
+
+h1 {
+    text-align: center;
+}
+
+#question-container {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#progress-bar-container {
+    width: 50%;
+    height: 10px;
+    background-color: #ddd;
+    margin-bottom: 5px;
+}
+
+#progress-bar {
+    width: 0%;
+    height: 100%;
+    background-color: #4caf50;
+}
+
+#score-container {
+    display: none;
+    text-align: center;
+}
+#link {
+    font-weight: bold;         /* Makes the text bold */
+    display: block;            /* Makes the link a block-level element, allowing centering */
+    text-align: center;        /* Centers the text horizontally */
+    margin: 0 auto;            /* Centers the link itself in its parent container */
+    padding: 10px;             /* Optional: Adds some padding around the link */
+    text-decoration: none;     /* Removes the underline by default from links */
+}
